@@ -4,7 +4,7 @@ puts "Exercise 1"
 puts "----------"
 
 # Your code goes below here ...
-s1  = Store.new 
+s1  = Store.create 
 s1.name = "Burnaby"
 s1.annual_revenue = 300000
 s1.mens_apparel = true
